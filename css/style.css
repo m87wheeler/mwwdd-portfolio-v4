@@ -76,14 +76,10 @@ body {
   from {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
-    top: 6px;
-    left: 99px;
   }
   to {
     -webkit-transform: rotate(0);
             transform: rotate(0);
-    top: 5px;
-    left: 100px;
   }
 }
 
@@ -91,14 +87,10 @@ body {
   from {
     -webkit-transform: rotate(90deg);
             transform: rotate(90deg);
-    top: 6px;
-    left: 99px;
   }
   to {
     -webkit-transform: rotate(0);
             transform: rotate(0);
-    top: 5px;
-    left: 100px;
   }
 }
 
@@ -133,7 +125,7 @@ body {
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
-  top: calc(40vh - 95px);
+  top: calc(30vh - 95px);
   width: 200px;
   height: 200px;
   overflow: hidden;
@@ -258,7 +250,7 @@ body {
 
 #landing-page h1 {
   position: absolute;
-  top: 60vh;
+  top: 50vh;
   left: 50%;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
@@ -282,7 +274,7 @@ body {
 #landing-page .view-portfolio {
   position: absolute;
   left: 50%;
-  top: 80vh;
+  top: 70vh;
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: 10rem;
@@ -321,7 +313,7 @@ body {
 #landing-page .view-portfolio-shadow {
   position: absolute;
   left: 50%;
-  top: calc(80vh + 5px);
+  top: calc(70vh + 5px);
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
   width: calc(10rem + 10px);
